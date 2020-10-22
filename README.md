@@ -1,1 +1,1 @@
-# newyorkfanoldal.github.io
+newyorkfanoldal
