@@ -1,3 +1,5 @@
-Ez a weboldal egy webporgramozási beadandóra készült.
+# Beadandó
 
-https://bali3355.github.io/newyorkfanoldal/
+## Iskolai projekt **webprogramozásra**
+
+[Itt érhető el](https://bali3355.github.io/newyorkfanoldal/index.html)
