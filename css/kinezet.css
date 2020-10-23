@@ -338,7 +338,128 @@ input[name="r"]{
 	background-color: lightgray;
 	margin-top: 23%;
 	position:relative;
+	padding:0;
+	background:#ccc;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 #mobilkep{
 	margin-left: 17%;
+}
+.ul_lab {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  display:flex;
+  margin:0;
+  padding:0;
+}
+.ul_lab .li_lab {
+  list-style:none;
+  margin:0 5px;
+}
+.ul_lab .li_lab a .fa {
+  font-size: 40px;
+  color: #262626;
+  line-height:80px;
+  transition: .5s;
+  padding-right: 14px;
+}
+.ul_lab .li_lab a .span_lab {
+  padding:0;
+  margin:0;
+  position:absolute;
+  top: 30px;
+  color: #262626;
+  letter-spacing: 4px;
+  transition: .5s;
+}
+.ul_lab .li_lab a {
+  text-decoration: none;
+  display:absolute;
+  display:block;
+  width:210px;
+  height:80px;
+  background: #fff;
+  text-align:left;
+  padding-left: 20px;
+  transform: rotate(-30deg) skew(25deg) translate(0,0);
+  transition:.5s;
+  box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+}
+.ul_lab .li_lab a:before {
+  content: '';
+  position: absolute;
+  top:10px;
+  left:-20px;
+  height:100%;
+  width:20px;
+  background: #b1b1b1;
+  transform: .5s;
+  transform: rotate(0deg) skewY(-45deg);
+}
+.ul_lab .li_lab a:after {
+  content: '';
+  position: absolute;
+  bottom:-20px;
+  left:-10px;
+  height:20px;
+  width:100%;
+  background: #b1b1b1;
+  transform: .5s;
+  transform: rotate(0deg) skewX(-45deg);
+}
+.ul_lab .li_lab a:hover {
+  transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+  box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+}
+.ul_lab .li_lab:hover .fa {
+  color:#fff;
+}
+.ul_lab .li_lab:hover .span_lab {
+  color:#fff;
+}
+.ul_lab .li_lab:hover:nth-child(1) a{
+  background: #3b5998;
+}
+.ul_lab .li_lab:hover:nth-child(1) a:before{
+  background: #365492;
+}
+.ul_lab .li_lab:hover:nth-child(1) a:after{
+  background: #4a69ad;
+}
+.ul_lab .li_lab:hover:nth-child(2) a{
+  background: #00aced;
+}
+.ul_lab .li_lab:hover:nth-child(2) a:before{
+  background: #097aa5;
+}
+.ul_lab .li_lab:hover:nth-child(2) a:after{
+  background: #53b9e0;
+}
+.ul_lab .li_lab:hover:nth-child(3) a{
+  background: red;
+}
+.ul_lab .li_lab:hover:nth-child(3) a:before{
+  background: red;
+}
+.ul_lab .li_lab:hover:nth-child(3) a:after{
+  background: red;
+}
+.ul_lab .li_lab:hover:nth-child(4) a{
+  background: #F061F0;
+}
+.ul_lab .li_lab:hover:nth-child(4) a:before{
+  background: #F061F0;
+}
+.ul_lab .li_lab:hover:nth-child(4) a:after{
+  background: #F061F0;
+}
+@viewport{
+	zoom: 1.0;
+	width: extend-to zoom;
+}
+@-ms-viewport{
+	zoom: 1.0;
+	width: extend-to zoom;
 }
