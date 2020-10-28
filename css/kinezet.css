@@ -113,15 +113,15 @@
 	margin-left: 60px;
 	padding-right: 5px;
 }
+/*--------------SLIDESHOW---------------*/
+
 .slidershow{
-  width: 100%;
-  height: 500px;
+  width: 700px;
+  height: 400px;
   overflow: hidden;
-  margin-top: 2%;
-  position:relative;
 }
 .middle{
-  position:relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
@@ -144,16 +144,18 @@
 .bar:hover{
   background: #fff;
 }
+
 input[name="r"]{
     position: absolute;
     visibility: hidden;
 }
+
 .slides{
-  position: absolute;
   width: 500%;
   height: 100%;
   display: flex;
 }
+
 .slide{
   width: 20%;
   transition: 0.6s;
@@ -162,6 +164,7 @@ input[name="r"]{
   width: 100%;
   height: 100%;
 }
+
 #r1:checked ~ .s1{
   margin-left: 0;
 }
@@ -175,10 +178,10 @@ input[name="r"]{
   margin-left: -60%;
 }
 #r5:checked ~ .s1{
-	
-	
   margin-left: -80%;
 }
+
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -472,7 +475,7 @@ input[name="r"]{
 .text{
   width: 100%;
   left: 5px;
-  position: absolute;
+  position: relative;
 }
 #reg_kep{
 	text-align:center;
