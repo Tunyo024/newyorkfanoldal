@@ -113,15 +113,15 @@
 	margin-left: 60px;
 	padding-right: 5px;
 }
-/*--------------SLIDESHOW---------------*/
-
 .slidershow{
-  width: 700px;
-  height: 400px;
+  width: 100%;
+  height: 500px;
   overflow: hidden;
+  margin-top: 2%;
+  position:relative;
 }
 .middle{
-  position: absolute;
+  position:relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
@@ -144,18 +144,16 @@
 .bar:hover{
   background: #fff;
 }
-
 input[name="r"]{
     position: absolute;
     visibility: hidden;
 }
-
 .slides{
+  position: absolute;
   width: 500%;
   height: 100%;
   display: flex;
 }
-
 .slide{
   width: 20%;
   transition: 0.6s;
@@ -164,7 +162,6 @@ input[name="r"]{
   width: 100%;
   height: 100%;
 }
-
 #r1:checked ~ .s1{
   margin-left: 0;
 }
@@ -178,10 +175,10 @@ input[name="r"]{
   margin-left: -60%;
 }
 #r5:checked ~ .s1{
+	
+	
   margin-left: -80%;
 }
-
-
 .dropdown {
   position: relative;
   display: inline-block;
@@ -475,7 +472,7 @@ input[name="r"]{
 .text{
   width: 100%;
   left: 5px;
-  position: relative;
+  position: absolute;
 }
 #reg_kep{
 	text-align:center;
@@ -487,4 +484,8 @@ input[name="r"]{
 #reg_szoveg
 {
 	text-align: center;
+}
+body{
+	width: 1280px;
+	height: 1024px;
 }
