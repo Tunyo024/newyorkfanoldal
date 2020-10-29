@@ -37,7 +37,6 @@
 	float: right;
 	padding-left: 5px;
 	padding-right: 5px;
-	
 }
 #fejlec_tura{
 	color: blue;
@@ -64,7 +63,6 @@
 	padding-left: 70%;
 }
 #anheuser_logo{
-	
 	height: 60px;
 	width: 100px;
 }
@@ -117,7 +115,7 @@
   width: 100%;
   height: 500px;
   overflow: hidden;
-  margin-top: 3%;
+  margin-top: -100px;
   position:relative;
 }
 .middle{
@@ -175,8 +173,6 @@ input[name="r"]{
   margin-left: -60%;
 }
 #r5:checked ~ .s1{
-	
-	
   margin-left: -80%;
 }
 .dropdown {
@@ -203,7 +199,7 @@ input[name="r"]{
 	margin-bottom: 18px;
 }
 #fotarolo{
-	
+	margin-top: -250px;
 	width: 100%;
 	height: 100%;
 }
@@ -331,9 +327,9 @@ input[name="r"]{
 }
 #lablec{
 	width: 100%;
-	height: 39%;
+	height: 42%;;
 	background-color: lightgray;
-	margin-top: 23%;
+	margin-top: 600px;
 	position:relative;
 	padding:0;
 	background:#ccc;
