@@ -201,11 +201,13 @@ input[name="r"]{
 #fotarolo{
 	width: 100%;
 	height: 100%;
+	margin-top: 100px;
 }
 #felso_menetrend_tarolo{
 	width: 100%;
 	height: 20%;
 	text-align: center;
+	margin-top: 100px;
 }
 #jobbtarolo{
 	position:relative;
