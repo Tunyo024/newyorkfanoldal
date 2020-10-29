@@ -263,7 +263,7 @@ input[name="r"]{
 #hirtabla{
 	margin-top: 45px;
 	margin-left: 5px;
-    border-spacing: 50px;
+    border-spacing: 20px;
     border-collapse: separate;
 }
 #content {
@@ -278,7 +278,6 @@ input[name="r"]{
   width: 300px;
   height: 300px;
   perspective: 1000px;
-  position:relative;
 }
 .flip-card-inner {
   width: 100%;
@@ -302,7 +301,6 @@ input[name="r"]{
   color: black;
 }
 .flip-card-back {
-	
   background-color: gray;
   color: white;
   transform: rotateY(180deg);
@@ -329,7 +327,7 @@ input[name="r"]{
 	border-width: 0.5px;
 	border-top-color: blue;
 	border-top-width: thick;
-	margin-right: 30px;
+	margin-right: 0px;
 }
 #lablec{
 	width: 100%;
@@ -342,7 +340,7 @@ input[name="r"]{
 	font-family: 'Roboto Condensed', sans-serif;
 }
 #mobilkep{
-	margin-left: 20px;
+	margin-left: 2px;
 }
 .ul_lab {
   position:absolute;
@@ -487,4 +485,5 @@ body{
 }
 #baltarolo{
 	margin-top: 40px;
+	margin-left: 0px;
 }
