@@ -261,8 +261,8 @@ input[name="r"]{
 }
 #hirtabla{
 	margin-top: 45px;
-	margin-left: 10px;
-    border-spacing: 80px;
+	margin-left: 5px;
+    border-spacing: 50px;
     border-collapse: separate;
 	position:relative;
 }
