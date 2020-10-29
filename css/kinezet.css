@@ -232,7 +232,7 @@ input[name="r"]{
 	margin-right: 20px;
 }
 #teljes_menetrend{
-	margin-left: 40%;
+	margin-left: 10%;
 }
 .teljes_menetrend {
 	box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -264,7 +264,6 @@ input[name="r"]{
 	margin-left: 5px;
     border-spacing: 50px;
     border-collapse: separate;
-	position:relative;
 }
 #body {
     width:100vw;
@@ -485,6 +484,6 @@ input[name="r"]{
 	text-align: center;
 }
 body{
-	width: 1280px;
+	width: 1920px;
 	height: 1024px;
 }
