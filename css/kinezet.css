@@ -266,11 +266,6 @@ input[name="r"]{
     border-spacing: 50px;
     border-collapse: separate;
 }
-#body {
-    width:100vw;
-    height:100vh;
-    text-align:center;
-}
 #content {
     transform: translateY(-50%);
     -webkit-transform:translateY(-50%);
