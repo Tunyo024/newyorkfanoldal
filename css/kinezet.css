@@ -7,7 +7,7 @@ body {
 }
 /*Header sáv | Menu és a többi*/
 nav {
-  position: re;
+  position: relative;
   z-index: 10;
   width: 100%;
   height: 60px;
