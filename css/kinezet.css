@@ -1,118 +1,87 @@
-#fejlec_felso{
-	height: 60px;
-	background-color: #013473;
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+    display: grid;
+}
+/*Header sáv | Menu és a többi*/
+nav {
+  position: re;
+  z-index: 10;
+  width: 100%;
+  height: 60px;
+  background-color: aliceblue;
+}
+nav p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  font-size: 20px;
+  line-height: 56px;
+  float: left;
+  padding: 0px 20px;
+}
+nav img{
+  float: left;
+  width: 56px;
+}
+/*Navigációs sáv*/
+nav ul {
+  float: left;
+  max-width: 800px;
+  display: flex;
+}
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+nav ul li a {
+  position: relative;
+  display: block;
+  font-variant: inherit;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  color: #222;
+  font-size: 18px;
+  padding: 19px 14px;
+  text-decoration: none;
+}
+/*Animáció a dropdown menuhoz*/
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 2px;
+  border-radius: 0px 0px 8px 8px;
+}
+nav ul li:hover ul {
+display: block;
+}
+nav ul li ul li {
+  text-align: center;
+  width: 160px;
+  border-radius: 4px;
+}
+
+nav ul li ul li a {
+  padding: 18px 14px;
+}
+
+nav ul li ul li a:hover {
+  background-color: rgb(218, 221, 236);
+  transition: 0,5s;
+}
+/*------------------Slide-----------------*/
+
+#slidehatter{
 	width: 100%;
-	margin-left: 0px;
-	margin-right: 0px;
+	background-color: #ccc;
+  height: 500px;
 }
-#fejlec_kozepso{
-	height: 120px;
-	background-color: white;
-	width: 100%;
-}
-#fejlec_logo{
-	height: 80px;
-	width: 80px;
-	padding-top: 10px;
-	padding-left: 20px;
-}
-#fejlec_kozepso_also{
-	height: 20px;
-	background-color: white;
-	width: 100%;
-}
-#fejlec_jegyek{
-	color: blue;
-	border-right-style: solid;
-	border-right-color: black;
-	border-right-width: 1px;
-	padding-right: 5px;
-	float: right;
-}
-#fejlec_vip{
-	color: blue;
-	border-right-style: solid;
-	border-right-color: black;
-	border-right-width: 1px;
-	float: right;
-	padding-left: 5px;
-	padding-right: 5px;
-}
-#fejlec_tura{
-	color: blue;
-	border-right-style: solid;
-	border-right-color: black;
-	border-right-width: 1px;
-	float: right;
-	padding-left: 5px;
-	padding-right: 5px;
-}
-#fejlec_bolt{
-	color: blue;
-	border-right-style: solid;
-	border-right-color: black;
-	border-right-width: 1px;
-	float: right;
-	padding-left: 5px;
-	padding-right: 5px;
-	margin-right: 50px;
-}
-#gatorade_logo{
-	height: 60px;
-	width: 100px;
-	padding-left: 70%;
-}
-#anheuser_logo{
-	height: 60px;
-	width: 100px;
-}
-#fejlec_regisztracio{
-	border-right-style: solid;
-	border-right-color: black;
-	border-right-width: 1px;
-	float: right;
-	margin-right: 10%;
-	padding-left: 5px;
-	padding-right: 5px;
-}
-#fejlec_belepes{
-	border-right-style: solid;
-	border-right-color: black;
-	border-right-width: 1px;
-	float: right;
-	padding-left: 5px;
-	padding-right: 5px;
-}
-#fejlec_csapat{
-	padding-right: 5px;
-	
-}
-#fejlec_aklub{
-	padding-left: 5px;
-	padding-right: 5px;
-}
-#fejlec_partnerek{
-	padding-left: 5px;
-	padding-right: 5px;
-}
-#fejlec_rajongok{
-	padding-left: 5px;
-	padding-right: 5px;
-}
-#fejlec_stadion{
-	padding-left: 5px;
-	padding-right: 5px;
-}
-#fejlec_videok{
-	padding-left: 5px;
-	padding-right: 500px;
-}
-#fejlec_hirek{
-	margin-left: 60px;
-	padding-right: 5px;
-}
+
 .slidershow{
-  width: 50%;
+  width: 900px;
   height: 500px;
   overflow: hidden;
   margin-top: 0px;
@@ -144,6 +113,15 @@
 }
 .bar:hover{
   background: #fff;
+}
+.bar2{
+  display: none;
+  width: 50px;
+  height: 10px;
+  border: 2px solid #fff;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s;
 }
 input[name="r"]{
     position: absolute;
@@ -201,17 +179,20 @@ input[name="r"]{
 #fejlec_logo_felirat{
 	margin-bottom: 18px;
 }
+
+
+/*Tarolo*/
+
 #fotarolo{
 	width: 100%;
 	height: 100%;
-	margin-top: 10%;
 }
 #felso_menetrend_tarolo{
 	width: 100%;
-	height: 20%;
 	text-align: center;
-	margin-top: 10%;
+	margin-top: 2%;
 }
+/*------Menetrend-------*/
 #jobbtarolo{
 	position:relative;
 	float: right;
@@ -258,12 +239,26 @@ input[name="r"]{
 	position:relative;
 	top:1px;
 }
+/*---------Hírek---------*/
+#baltarolo{
+
+	margin-left: 0px;
+}
 #hirtabla{
-	margin-top: 45px;
-	margin-left: 5px;
-    border-spacing: 20px;
+	margin-left: 80px;
+    border-spacing: 40px;
     border-collapse: separate;
 }
+#hirkep {
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+}
+@media screen and (min-width: 600px) {
+  }
+
+
 #content {
     transform: translateY(-50%);
     -webkit-transform:translateY(-50%);
@@ -273,8 +268,8 @@ input[name="r"]{
 }
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   perspective: 1000px;
 }
 .flip-card-inner {
@@ -310,15 +305,15 @@ position: relative;
 }
 .floating {  
     animation-name: floating;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
     margin-left: 10%;
     margin-top: 2%;
 }
 @keyframes floating {
-    from { transform: translate(0,  700px); }
-    65%  { transform: translate(0, 15px); }
+    from { transform: translate(0,  500px); }
+    80%  { transform: translate(0, 5px); }
     to   { transform: translate(0, -0px); }    
 }
 #jobb_menetrend{
@@ -329,130 +324,99 @@ position: relative;
 	border-top-width: thick;
 	margin-right: 0px;
 }
-#lablec{
-	width: 100%;
-	height: 42%;
-	background-color: lightgray;
-	margin-top: 600px;
-	position:relative;
-	padding:0;
-	background:#ccc;
-	font-family: 'Roboto Condensed', sans-serif;
-}
 #mobilkep{
 	margin-left: 2px;
 }
-.ul_lab {
-  position:absolute;
-  top:20%;
-  left:50%;
-  transform:translate(-50%, -50%);
-  display:flex;
-  margin:0;
-  padding:0;
-}
-.ul_lab .li_lab {
-  list-style:none;
-  margin:0 5px;
-}
-.ul_lab .li_lab a .fa {
-  font-size: 40px;
-  color: #262626;
-  line-height:80px;
-  transition: .5s;
-  padding-right: 14px;
-}
-.ul_lab .li_lab a .span_lab {
-  padding:0;
-  margin:0;
-  position:absolute;
-  top: 30px;
-  color: #262626;
-  letter-spacing: 4px;
-  transition: .5s;
-}
-.ul_lab .li_lab a {
+
+/*-----------footer--------------*/
+  footer {
+    font-family: Arial, Helvetica, sans-serif ;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 50px;
+  color: #000;
+  background-color: #ccc;
+  }
+  
+  footer * {
+  flex:  1 100%;
+  }
+  
+  .l-footer {
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+  }
+  
+  h2 {
+  font-weight: 400;
+  font-size: 15px;
+  }
+  
+  footer ul {
+  list-style: none;
+  padding-left: 0;
+  }
+  
+  footer li {
+  line-height: 2em;
+  }
+  
+  footer a {
   text-decoration: none;
-  display:absolute;
-  display:block;
-  width:50px;
-  height:80px;
-  background: #fff;
-  text-align:left;
-  padding-left: 5px;
-  margin-right: 40px;
-  transform: rotate(0deg) skew(25deg) translate(0,0);
-  transition:.5s;
-  box-shadow: -20px 20px 10px rgba(0,0,0,.5);
-}
-.ul_lab .li_lab a:before {
-  content: '';
-  position: absolute;
-  top:10px;
-  left:-20px;
-  height:100%;
-  width:20px;
-  background: #b1b1b1;
-  transform: .5s;
-  transform: rotate(0deg) skewY(-45deg);
-}
-.ul_lab .li_lab a:after {
-  content: '';
-  position: absolute;
-  bottom:-20px;
-  left:-10px;
-  height:20px;
-  width:100%;
-  background: #b1b1b1;
-  transform: .5s;
-  transform: rotate(0deg) skewX(-45deg);
-}
-.ul_lab .li_lab a:hover {
-  transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
-  box-shadow: -50px 50px 50px rgba(0,0,0,.5);
-}
-.ul_lab .li_lab:hover .fa {
-  color:#fff;
-}
-.ul_lab .li_lab:hover .span_lab {
-  color:#fff;
-}
-.ul_lab .li_lab:hover:nth-child(1) a{
-  background: #3b5998;
-}
-.ul_lab .li_lab:hover:nth-child(1) a:before{
-  background: #365492;
-}
-.ul_lab .li_lab:hover:nth-child(1) a:after{
-  background: #4a69ad;
-}
-.ul_lab .li_lab:hover:nth-child(2) a{
-  background: #00aced;
-}
-.ul_lab .li_lab:hover:nth-child(2) a:before{
-  background: #097aa5;
-}
-.ul_lab .li_lab:hover:nth-child(2) a:after{
-  background: #53b9e0;
-}
-.ul_lab .li_lab:hover:nth-child(3) a{
-  background: red;
-}
-.ul_lab .li_lab:hover:nth-child(3) a:before{
-  background: red;
-}
-.ul_lab .li_lab:hover:nth-child(3) a:after{
-  background: red;
-}
-.ul_lab .li_lab:hover:nth-child(4) a{
-  background: #F061F0;
-}
-.ul_lab .li_lab:hover:nth-child(4) a:before{
-  background: #F061F0;
-}
-.ul_lab .li_lab:hover:nth-child(4) a:after{
-  background: #F061F0;
-}
+  }
+  
+  .r-footer {
+  display: flex;
+  flex-flow: row wrap;
+  }
+  
+  .r-footer * {
+  flex: 1 50%;
+  margin-right: 1.25em;
+  }
+  
+  .box a {
+  color: #000;
+  }
+  
+  .h-box {
+  column-count: 2;
+  column-gap: 1.25em;
+  }
+  
+  .b-footer {
+  text-align: center;
+  color: #000;
+  padding-top: 50px;
+  }
+  
+  .l-footer p {
+  padding-right: 20%;
+  color: #000;
+  }   
+  
+  @media screen and (min-width: 600px) {
+  .r-footer * {
+  flex: 1;
+  }
+  
+  .features {
+  flex-grow: 2;
+  }
+  
+  .l-footer {
+  flex: 1 0px;
+  }
+  
+  .r-footer {
+  flex: 2 0px;
+  }
+  }
+
+  
+
+  /*-----------Dinamikus elemek------------*/
+
 @viewport{
 	zoom: 1.0;
 	width: extend-to zoom;
@@ -484,16 +448,7 @@ body{
 	max-width: 100%;
 	min-height: 100%;
 }
-#baltarolo{
-	margin-top: 40px;
-	margin-left: 0px;
-}
 .fooldalkepek{
 	width: 50%;
 	text-align: center;
-}
-#slidehatter{
-	width: 100%;
-	background-color: #013473;
-	height: 500px;
 }
