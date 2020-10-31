@@ -11,7 +11,7 @@
  - [ ]  Footer: Átírás, és hivatkozások elhelyezése
  - [ ] Header: hivatkozások hozzárendelése
  - [ ]  Hiányzó weboldalak megalkotása:
- - - [ ] Névsor: Képek, nevek, infók
+ - - [x] Névsor: Képek, nevek, infók
  - - [ ] Belépés
  - - [ ] Klub és a hozzá tartozó hivatkozások, vagy weboldalak
  - - [ ] Bolt és a hozzá tartozó hivatkozások, vagy weboldalak
