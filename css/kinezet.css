@@ -607,3 +607,56 @@ body{
 #nevsor_oszlop_nev{
 	background-color: #3366ff;
 }
+
+#body_kepvalaszto {
+  margin: 0;
+  font-family: Arial;
+}
+
+.stadion_oszlop {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.stadion_oszlop img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.stadion_oszlop img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.stadion_sor:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.stadion_container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#kepszoveg {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.cbtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
