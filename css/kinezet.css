@@ -446,6 +446,7 @@ position: relative;
 	background-color: #013473;
 }
 #regisztracios_tabla{
+  border-spacing: 10px 15px;
 	margin-top: 3%;
 }
 #reg_szoveg
