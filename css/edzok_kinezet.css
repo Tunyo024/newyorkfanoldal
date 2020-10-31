@@ -1,0 +1,46 @@
+#body{
+	margin-top: 0px;
+}
+#thumbs {
+  float: left;
+  margin-left: 0px;
+  top: 500px;
+  display: inline;
+  width: 1000px;
+  padding-right: 100px;
+  border: 1px solid #CCCCCC;
+  box-shadow: 1px 1px 1px #CCCCCC;
+  position: relative;
+  left: 10%;
+}
+
+#first-image {
+  margin-left: 20px;
+}
+
+.thumb {
+  float: left;
+  display: block;
+  padding: 10px 10px 10px 10px;
+  opacity: 1.0;
+}
+
+.thumb .large-image {
+  display: none;
+  border: 1px solid #CCCCCC;
+  padding: 15px 150px 15px 150px;
+  box-shadow: 0px 0px 5px #404040;
+  bottom: 150px;
+  left: 150px;
+  opacity: 1.0;
+}
+
+.thumb:hover .large-image {
+  display: inline;
+  height: 400px;
+  width: 100%;
+  position: absolute;
+}
+#edzok_tabla{
+	margin-top: 500px;
+}

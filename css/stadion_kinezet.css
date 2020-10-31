@@ -5,6 +5,8 @@
 body {
   margin: 0;
   font-family: Arial;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* The grid: Four equal columns that floats next to each other */
